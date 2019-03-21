@@ -10,24 +10,30 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1015606,      16893]
-NotebookOptionsPosition[   1014327,      16844]
-NotebookOutlinePosition[   1014683,      16860]
-CellTagsIndexPosition[   1014640,      16857]
+NotebookDataLength[   1019921,      16968]
+NotebookOptionsPosition[   1018131,      16926]
+NotebookOutlinePosition[   1018487,      16942]
+CellTagsIndexPosition[   1018444,      16939]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["Image Comparsion", "Title",
+Cell["Image Comparison", "Title",
  CellChangeTimes->{{3.675038805892844*^9, 3.675038811552145*^9}, 
-   3.675038976019088*^9}],
+   3.675038976019088*^9, 
+   3.762117157801803*^9},ExpressionUUID->"d2de7860-54ad-4aab-8578-\
+e8d37da83c39"],
 
 Cell[CellGroupData[{
 
 Cell["Import Images", "Subsection",
- CellChangeTimes->{{3.67503876398027*^9, 3.675038768600093*^9}}],
+ CellChangeTimes->{{3.67503876398027*^9, 
+  3.675038768600093*^9}},ExpressionUUID->"874bafa8-2bdf-4fd1-9d0d-\
+990a252dd5c0"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[{
  RowBox[{
@@ -5899,7 +5905,11 @@ dOMcwzAMwzAMwzAMU3L5fzQcICY=
       ImageSize->Automatic,
       ImageSizeRaw->{858, 591},
       PlotRange->{{0, 858}, {0, 591}}], ",", "DefaultSize"}], "]"}]}], 
-  ";"}]}], "Input",
+  ";"}], "\n", 
+ RowBox[{"Magnify", "[", 
+  RowBox[{"ImgInput1", ",", "1"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Magnify", "[", 
+  RowBox[{"ImgInput2", ",", "1"}], "]"}]}], "Input",
  CellChangeTimes->{{3.675014423019164*^9, 3.675014466579887*^9}, {
    3.675015152216168*^9, 3.6750151576088343`*^9}, 3.675034509077787*^9, {
    3.6750345603760138`*^9, 3.675034563130797*^9}, {3.675038717685028*^9, 
@@ -5909,30 +5919,8 @@ dOMcwzAMwzAMwzAMU3L5fzQcICY=
    3.675055652921277*^9, 3.6750556531422586`*^9}, {3.67509171991683*^9, 
    3.675091742458927*^9}, {3.6750917898132772`*^9, 3.675091796446967*^9}, {
    3.675091921175499*^9, 3.675091921738319*^9}, {3.67509437203644*^9, 
-   3.675094395929552*^9}}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Coordinate Setting (Get Coordinate order: x0, x1, y0, y1)", "Subsection",
- CellChangeTimes->{{3.675038776586863*^9, 3.675038789918489*^9}, {
-  3.675039198224978*^9, 3.675039208238534*^9}}],
-
-Cell[CellGroupData[{
-
-Cell["Show Images", "Subsubsection",
- CellChangeTimes->{{3.675091884816383*^9, 3.6750918979782257`*^9}}],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[{
- RowBox[{"Magnify", "[", 
-  RowBox[{"ImgInput1", ",", "1"}], "]"}], "\[IndentingNewLine]", 
- RowBox[{"Magnify", "[", 
-  RowBox[{"ImgInput2", ",", "1"}], "]"}]}], "Input",
- CellChangeTimes->{{3.6750917988766212`*^9, 3.6750918641715193`*^9}, {
-  3.675091937401651*^9, 3.675091939152789*^9}, {3.675092020559181*^9, 
-  3.675092022886697*^9}, {3.675094409198186*^9, 3.6750944113098516`*^9}}],
+   3.675094395929552*^9}, 3.762117194218129*^9},
+ CellLabel->"In[12]:=",ExpressionUUID->"63e9d8cb-27f8-47f0-9081-ec028768e91d"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -10780,7 +10768,9 @@ EREREREREREREREREREREdH/gv8DjAtrmg==
   PlotRange->{{0, 1000}, {0, 510}}]], "Output",
  CellChangeTimes->{{3.675091846457367*^9, 3.675091865172575*^9}, {
    3.675091927952444*^9, 3.6750919396886797`*^9}, 3.6750920232847443`*^9, {
-   3.6750944029211283`*^9, 3.675094412562399*^9}}],
+   3.6750944029211283`*^9, 3.675094412562399*^9}, 3.762117102060813*^9, 
+   3.762117195438932*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"b350184e-bc9c-4930-9838-bf072038c11f"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -16328,16 +16318,41 @@ RVEURVEURVEUlbn6PyxNwpM=
   PlotRange->{{0, 1000}, {0, 689}}]], "Output",
  CellChangeTimes->{{3.675091846457367*^9, 3.675091865172575*^9}, {
    3.675091927952444*^9, 3.6750919396886797`*^9}, 3.6750920232847443`*^9, {
-   3.6750944029211283`*^9, 3.6750944125922327`*^9}}]
+   3.6750944029211283`*^9, 3.675094412562399*^9}, 3.762117102060813*^9, 
+   3.7621171954552107`*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"11e38539-1800-433f-bf41-c0b75363ad6c"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
+Cell["\<\
+Coordinate Setting [Right Click Figs ->  Get Coordinates, order: x0, x1, y0, \
+y1]\
+\>", "Subsection",
+ CellChangeTimes->{{3.675038776586863*^9, 3.675038789918489*^9}, {
+  3.675039198224978*^9, 3.675039208238534*^9}, {3.762117807719562*^9, 
+  3.762117847693173*^9}},ExpressionUUID->"fec39457-ad5f-4ccd-95b0-\
+159afedc0d03"],
+
+Cell[CellGroupData[{
+
 Cell["Fig 1 Coordinate Setting", "Subsubsection",
- CellChangeTimes->{{3.675038935383335*^9, 3.675038945393042*^9}}],
+ CellChangeTimes->{{3.675038935383335*^9, 
+  3.675038945393042*^9}},ExpressionUUID->"c60f00bd-557e-4c4a-9e6c-\
+ade486ceb6d4"],
 
 Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Fig1axis", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "13"}], ",", 
+       RowBox[{"-", "7"}]}], "}"}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"Fig1GetCoord", "=", 
    RowBox[{"{", 
@@ -16350,17 +16365,7 @@ Cell[BoxData[{
       RowBox[{"160.9925474254743", ",", "71.7801490514903"}], "}"}], ",", 
      RowBox[{"{", 
       RowBox[{"160.83163956639567`", ",", "438.01067073170714`"}], "}"}]}], 
-    "}"}]}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"Fig1axis", "=", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{"0", ",", "1"}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"-", "13"}], ",", 
-       RowBox[{"-", "7"}]}], "}"}]}], "}"}]}], ";"}]}], "Input",
+    "}"}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.6750345952570257`*^9, 3.6750346013937273`*^9}, {
    3.675034644326084*^9, 3.675034645864559*^9}, {3.675035198631431*^9, 
    3.675035201209303*^9}, {3.675038356445353*^9, 3.675038394211878*^9}, {
@@ -16369,15 +16374,29 @@ Cell[BoxData[{
    3.675039167158142*^9}, {3.675090951383938*^9, 3.675090982354616*^9}, {
    3.675091035917197*^9, 3.6750910365798798`*^9}, 3.675091968548699*^9, {
    3.6750944766038847`*^9, 3.67509449425957*^9}, {3.67509467139014*^9, 
-   3.675094673254038*^9}}]
+   3.675094673254038*^9}, {3.762117208231559*^9, 
+   3.762117213941557*^9}},ExpressionUUID->"8054c62c-c668-4ec0-825f-\
+3240e5dd2106"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Fig 2 Coordinate Setting", "Subsubsection",
- CellChangeTimes->{{3.675038948789707*^9, 3.675038954417157*^9}}],
+ CellChangeTimes->{{3.675038948789707*^9, 
+  3.675038954417157*^9}},ExpressionUUID->"9128deb0-757c-43da-ad01-\
+c5d74e9389e6"],
 
 Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Fig2axis", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "15"}], ",", 
+       RowBox[{"-", "7"}]}], "}"}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"Fig2GetCoord", "=", 
    RowBox[{"{", 
@@ -16390,17 +16409,7 @@ Cell[BoxData[{
       RowBox[{"156.89786585365857`", ",", "99.57757452574526"}], "}"}], ",", 
      RowBox[{"{", 
       RowBox[{"156.3727981029811", ",", "594.6487127371274"}], "}"}]}], 
-    "}"}]}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"Fig2axis", "=", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{"0", ",", "1"}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"-", "15"}], ",", 
-       RowBox[{"-", "7"}]}], "}"}]}], "}"}]}], ";"}]}], "Input",
+    "}"}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.6750345952570257`*^9, 3.6750346013937273`*^9}, {
    3.675034644326084*^9, 3.675034645864559*^9}, {3.675035198631431*^9, 
    3.675035201209303*^9}, {3.675038356445353*^9, 3.675038394211878*^9}, {
@@ -16409,19 +16418,18 @@ Cell[BoxData[{
    3.675039181514201*^9}, {3.6750910421788597`*^9, 3.675091071611809*^9}, {
    3.675091105184205*^9, 3.675091110052855*^9}, 3.6750920051198483`*^9, {
    3.67509452870208*^9, 3.6750945408539667`*^9}, {3.675094674773308*^9, 
-   3.6750946777321787`*^9}}]
+   3.6750946777321787`*^9}, {3.762117217221636*^9, 
+   3.762117221828549*^9}},ExpressionUUID->"73e71505-784b-4184-b353-\
+251b318a3921"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["Processing", "Subsection",
- CellChangeTimes->{{3.67503879553185*^9, 3.6750387977822123`*^9}}],
-
-Cell[CellGroupData[{
-
-Cell["Overlapping Plot with Filling", "Subsubsection",
- CellChangeTimes->{{3.675091664171054*^9, 3.675091677838881*^9}}],
+Cell["Overlapping Plot with Filling", "Subsection",
+ CellChangeTimes->{{3.675091664171054*^9, 
+  3.675091677838881*^9}},ExpressionUUID->"931a7d32-1d1c-4068-ad5c-\
+605a13a8fd95"],
 
 Cell[CellGroupData[{
 
@@ -16435,8 +16443,8 @@ Cell[BoxData[
        RowBox[{
        "xmark1", ",", "ymark1", ",", "trans1", ",", "xmark2", ",", "ymark2", 
         ",", "resizefactorx", ",", "resizefactory", ",", "trans2", ",", 
-        "PlotComp", ",", "Fig1Xaxis", ",", "Fig1Yaxis", ",", "Fig2Xaxis", ",",
-         "Fig2Yaxis"}], "}"}], ",", "\[IndentingNewLine]", 
+        "PlotComp", ",", "PlotComp2", ",", "Fig1Xaxis", ",", "Fig1Yaxis", ",",
+         "Fig2Xaxis", ",", "Fig2Yaxis"}], "}"}], ",", "\[IndentingNewLine]", 
       RowBox[{
        RowBox[{"xmark1", "=", 
         RowBox[{
@@ -16692,9 +16700,42 @@ Cell[BoxData[
           RowBox[{"trans2", "[", 
            RowBox[{"{", 
             RowBox[{"0", ",", "0"}], "}"}], "]"}]}], "]"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"PlotComp2", "=", 
+        RowBox[{"ImageCompose", "[", 
+         RowBox[{"ImgInput2", ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"ImageResize", "[", 
+             RowBox[{"ImgInput1", ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"ImageDimensions", "[", 
+                  RowBox[{"ImageResize", "[", 
+                   RowBox[{"ImgInput1", ",", 
+                    RowBox[{"DefaultSize", "*", "resizefactorx"}]}], "]"}], 
+                  "]"}], "[", 
+                 RowBox[{"[", "1", "]"}], "]"}], ",", 
+                RowBox[{
+                 RowBox[{"ImageDimensions", "[", 
+                  RowBox[{"ImageResize", "[", 
+                   RowBox[{"ImgInput1", ",", 
+                    RowBox[{"DefaultSize", "*", "resizefactory"}]}], "]"}], 
+                  "]"}], "[", 
+                 RowBox[{"[", "2", "]"}], "]"}]}], "}"}]}], "]"}], ",", 
+            "opacity"}], "}"}], ",", 
+          RowBox[{"trans1", "[", 
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], "]"}], ",", 
+          RowBox[{"trans2", "[", 
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], "]"}]}], "]"}]}], ";", 
        "\[IndentingNewLine]", "\[IndentingNewLine]", 
        RowBox[{"Show", "[", 
-        RowBox[{"PlotComp", ",", 
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{"order", ",", "PlotComp", ",", "PlotComp2"}], "]"}], ",", 
          RowBox[{"ImageSize", "\[Rule]", " ", "Large"}]}], "]"}]}]}], 
      "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
     "\[IndentingNewLine]", 
@@ -16702,10 +16743,24 @@ Cell[BoxData[
      RowBox[{"{", 
       RowBox[{
        RowBox[{"{", 
-        RowBox[{
-        "opacity", ",", "0.5", ",", "\"\<Opacity of overlapping image\>\""}], 
-        "}"}], ",", "0", ",", "1", ",", "0.01"}], "}"}],
-     FontSize->12]}], "]"}], "\[IndentingNewLine]"}]], "Input",
+        RowBox[{"order", ",", "True", ",", "\"\<Fig. 1 on top\>\""}], "}"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"True", ",", "False"}], "}"}]}], "}"}],
+     FontSize->12], 
+    StyleBox[",",
+     FontSize->12], 
+    StyleBox["\[IndentingNewLine]",
+     FontSize->12], 
+    StyleBox[
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"opacity", ",", "0.5", ",", "\"\<Opacity of top Fig.\>\""}], 
+        "}"}], ",", "0", ",", "1", ",", "0.1"}], "}"}],
+     FontSize->12]}], 
+   StyleBox["\[IndentingNewLine]",
+    FontSize->12], "]"}], "\[IndentingNewLine]"}]], "Input",
  CellChangeTimes->{{3.675032450582703*^9, 3.6750324606808987`*^9}, 
    3.675032566363339*^9, {3.675033369217332*^9, 3.6750333791069717`*^9}, 
    3.675033621061585*^9, {3.675034652783396*^9, 3.675034697714244*^9}, {
@@ -16720,23 +16775,31 @@ Cell[BoxData[
    3.6750843575212183`*^9}, {3.6750909965555143`*^9, 3.675091068566257*^9}, {
    3.6750938669754887`*^9, 3.675093922000535*^9}, {3.6750939631980457`*^9, 
    3.675093973960743*^9}, {3.6750940206461563`*^9, 3.675094034956587*^9}, 
-   3.675094251305778*^9, {3.675095093817211*^9, 3.6750952373656073`*^9}}],
+   3.675094251305778*^9, {3.675095093817211*^9, 3.6750952373656073`*^9}, {
+   3.762117423312112*^9, 3.762117530990844*^9}, {3.762117589257024*^9, 
+   3.7621176013042803`*^9}, {3.762117632153941*^9, 3.762117675591115*^9}, {
+   3.762117719865087*^9, 3.762117769224885*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"1370b7b8-3582-43c5-88f1-2d2065bdf744"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`opacity$$ = 0.5, Typeset`show$$ = True, 
-    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
-    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
-    "\"untitled\"", Typeset`specs$$ = {{{
-       Hold[$CellContext`opacity$$], 0.5, "Opacity of overlapping image"}, 0, 
-      1, 0.01}}, Typeset`size$$ = {576., {145., 149.}}, Typeset`update$$ = 0, 
+   DynamicModuleBox[{$CellContext`opacity$$ = 0.5, $CellContext`order$$ = 
+    True, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`order$$], True, "Fig. 1 on top"}, {True, False}}, {{
+       Hold[$CellContext`opacity$$], 0.5, "Opacity of top Fig."}, 0, 1, 0.1}},
+     Typeset`size$$ = {576., {145., 149.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`opacity$510302$$ = 0}, 
+    True, $CellContext`order$13408$$ = False, $CellContext`opacity$13409$$ = 
+    0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
-     1, StandardForm, "Variables" :> {$CellContext`opacity$$ = 0.5}, 
-      "ControllerVariables" :> {
-        Hold[$CellContext`opacity$$, $CellContext`opacity$510302$$, 0]}, 
+     1, StandardForm, 
+      "Variables" :> {$CellContext`opacity$$ = 0.5, $CellContext`order$$ = 
+        True}, "ControllerVariables" :> {
+        Hold[$CellContext`order$$, $CellContext`order$13408$$, False], 
+        Hold[$CellContext`opacity$$, $CellContext`opacity$13409$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -16745,8 +16808,8 @@ Cell[BoxData[
       Block[{$CellContext`xmark1, $CellContext`ymark1, $CellContext`trans1, \
 $CellContext`xmark2, $CellContext`ymark2, $CellContext`resizefactorx, \
 $CellContext`resizefactory, $CellContext`trans2, $CellContext`PlotComp, \
-$CellContext`Fig1Xaxis, $CellContext`Fig1Yaxis, $CellContext`Fig2Xaxis, \
-$CellContext`Fig2Yaxis}, $CellContext`xmark1 = Part[
+$CellContext`PlotComp2, $CellContext`Fig1Xaxis, $CellContext`Fig1Yaxis, \
+$CellContext`Fig2Xaxis, $CellContext`Fig2Yaxis}, $CellContext`xmark1 = Part[
            Part[$CellContext`Fig1GetCoord, 
             Span[1, 2]], All, 1]; $CellContext`ymark1 = Part[
            Part[$CellContext`Fig1GetCoord, 
@@ -16820,12 +16883,28 @@ $CellContext`resizefactorx]], 1],
                 ImageResize[$CellContext`ImgInput2, $CellContext`DefaultSize \
 $CellContext`resizefactory]], 2]}], $CellContext`opacity$$}, 
            $CellContext`trans1[{0, 0}], 
-           $CellContext`trans2[{0, 0}]]; 
-        Show[$CellContext`PlotComp, ImageSize -> Large]], 
-      "Specifications" :> {{{$CellContext`opacity$$, 0.5, 
-          "Opacity of overlapping image"}, 0, 1, 0.01}}, "Options" :> {}, 
-      "DefaultOptions" :> {}],
-     ImageSizeCache->{621., {189., 194.}},
+           $CellContext`trans2[{0, 0}]]; $CellContext`PlotComp2 = 
+         ImageCompose[$CellContext`ImgInput2, {
+            ImageResize[$CellContext`ImgInput1, {
+              Part[
+               ImageDimensions[
+                
+                ImageResize[$CellContext`ImgInput1, $CellContext`DefaultSize \
+$CellContext`resizefactorx]], 1], 
+              Part[
+               ImageDimensions[
+                
+                ImageResize[$CellContext`ImgInput1, $CellContext`DefaultSize \
+$CellContext`resizefactory]], 2]}], $CellContext`opacity$$}, 
+           $CellContext`trans1[{0, 0}], 
+           $CellContext`trans2[{0, 0}]]; Show[
+          
+          If[$CellContext`order$$, $CellContext`PlotComp, \
+$CellContext`PlotComp2], ImageSize -> Large]], 
+      "Specifications" :> {{{$CellContext`order$$, True, "Fig. 1 on top"}, {
+         True, False}}, {{$CellContext`opacity$$, 0.5, "Opacity of top Fig."},
+          0, 1, 0.1}}, "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{621., {201., 207.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -16836,16 +16915,19 @@ $CellContext`resizefactory]], 2]}], $CellContext`opacity$$},
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.675095238111002*^9}]
-}, Open  ]]
+ CellChangeTimes->{
+  3.675095238111002*^9, 3.76211712092365*^9, 3.762117243311307*^9, 
+   3.762117533170464*^9, {3.762117593039762*^9, 3.7621177293055077`*^9}, {
+   3.762117769828464*^9, 3.7621177760551157`*^9}},
+ CellLabel->"Out[28]=",ExpressionUUID->"d545b43c-a49a-4b94-9909-61c7802e2c60"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1159, 908},
-WindowMargins->{{Automatic, 336}, {Automatic, 5}},
-FrontEndVersion->"10.4 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 11, \
-2016)",
+WindowMargins->{{436, Automatic}, {22, Automatic}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -16860,38 +16942,31 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 125, 2, 92, "Title"],
+Cell[580, 22, 208, 4, 98, "Title",ExpressionUUID->"d2de7860-54ad-4aab-8578-e8d37da83c39"],
 Cell[CellGroupData[{
-Cell[730, 28, 100, 1, 44, "Subsection"],
-Cell[833, 31, 357886, 5880, 160, "Input"]
-}, Open  ]],
+Cell[813, 30, 160, 3, 54, "Subsection",ExpressionUUID->"874bafa8-2bdf-4fd1-9d0d-990a252dd5c0"],
 Cell[CellGroupData[{
-Cell[358756, 5916, 194, 2, 44, "Subsection"],
-Cell[CellGroupData[{
-Cell[358975, 5922, 104, 1, 35, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[359104, 5927, 401, 7, 46, "Input"],
-Cell[359508, 5936, 295389, 4846, 485, "Output"],
-Cell[654900, 10784, 338079, 5546, 651, "Output"]
+Cell[998, 37, 358154, 5885, 209, "Input",ExpressionUUID->"63e9d8cb-27f8-47f0-9081-ec028768e91d"],
+Cell[359155, 5924, 295516, 4848, 491, "Output",ExpressionUUID->"b350184e-bc9c-4930-9838-bf072038c11f"],
+Cell[654674, 10774, 338206, 5548, 657, "Output",ExpressionUUID->"11e38539-1800-433f-bf41-c0b75363ad6c"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[993028, 16336, 115, 1, 35, "Subsubsection"],
-Cell[993146, 16339, 1382, 32, 63, "Input"]
+Cell[992929, 16328, 333, 7, 54, "Subsection",ExpressionUUID->"fec39457-ad5f-4ccd-95b0-159afedc0d03"],
+Cell[CellGroupData[{
+Cell[993287, 16339, 175, 3, 45, "Subsubsection",ExpressionUUID->"c60f00bd-557e-4c4a-9e6c-ade486ceb6d4"],
+Cell[993465, 16344, 1489, 34, 73, "Input",ExpressionUUID->"8054c62c-c668-4ec0-825f-3240e5dd2106"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[994565, 16376, 115, 1, 35, "Subsubsection"],
-Cell[994683, 16379, 1390, 32, 63, "Input"]
+Cell[994991, 16383, 175, 3, 45, "Subsubsection",ExpressionUUID->"9128deb0-757c-43da-ad01-c5d74e9389e6"],
+Cell[995169, 16388, 1497, 34, 73, "Input",ExpressionUUID->"73e71505-784b-4184-b353-251b318a3921"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[996122, 16417, 99, 1, 44, "Subsection"],
+Cell[996715, 16428, 177, 3, 54, "Subsection",ExpressionUUID->"931a7d32-1d1c-4068-ad5c-605a13a8fd95"],
 Cell[CellGroupData[{
-Cell[996246, 16422, 120, 1, 35, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[996391, 16427, 12010, 295, 623, "Input"],
-Cell[1008404, 16724, 5871, 114, 400, "Output"]
-}, Open  ]]
+Cell[996917, 16435, 14061, 346, 854, "Input",ExpressionUUID->"1370b7b8-3582-43c5-88f1-2d2065bdf744"],
+Cell[1010981, 16783, 7110, 138, 427, "Output",ExpressionUUID->"d545b43c-a49a-4b94-9909-61c7802e2c60"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
