@@ -1,4 +1,4 @@
-#CompasionTool
+# CompasionTool
 
 A mathematica notebook to overlap one graph onto another graph.
 
